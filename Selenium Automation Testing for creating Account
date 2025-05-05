@@ -37,6 +37,7 @@ public class AccountCreation {
 		
 		String title1 = driver.getTitle();
 		System.out.println(title1);
+		driver.close();
 	}
 
 }
